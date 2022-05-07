@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-export default function Menu() {
+export default function Schedule() {
     return (
         <View>
-            <Text>Menu</Text>
+            <Text>Schedule Call</Text>
         </View>
     )
 }

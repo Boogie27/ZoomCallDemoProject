@@ -7,7 +7,6 @@ import {
  } from 'react-native'
 import Header from '../components/Header'
 import SearchBar from '../components/SearchBar'
-import Menu from '../components/Menu'
 import MenuButtons from '../components/MenuButtons'
 import ContactsMenu from '../components/ContactsMenu'
 
@@ -17,8 +16,7 @@ export default function Home() {
             <SafeAreaView>
                 <Header/>
                 <SearchBar/>
-                <MenuButtons/>
-                <Menu/>
+                {/* <MenuButtons/> */}
                 <ContactsMenu/>
             </SafeAreaView>
         </View>
